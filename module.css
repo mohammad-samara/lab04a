@@ -1,0 +1,118 @@
+/* 0.6510416666666667vw=1px */
+/* 0.2778vw =1px at galaxy s5 */
+*{
+    text-align: center;
+}
+
+@media all and (max-width:768px){
+    #a{grid-area: a;}
+    aside{grid-area: aside;}
+    .c{grid-area: c;}
+    .d{grid-area: d;}
+    .e{grid-area: e;}
+    .f{grid-area: f;}
+    .g{grid-area: g;}
+    .h{grid-area: h;}
+    #i{grid-area: i;}
+    body{
+        gap: 2px;
+        width: 95%;
+        background-color: aqua;
+        margin: 10px auto 10px auto;
+        display: grid;
+        
+        grid-template-rows: 20.835vw 41.67vw 34.725vw 34.725vw 66.672vw 66.672vw 22.224vw;
+        grid-template-columns: 50% 50% ;
+        grid-template-areas: 
+        "a a"
+        "aside aside"
+        "c c"
+        "d d"
+        "e f"
+        "g h"
+        "i i"
+        ;
+    }
+
+    #a,aside,.c,.d,.e,.f,.g,.h,#i{
+        display: grid;
+        align-items: center;
+        background-color: rgb(38, 25, 221);
+    }
+}
+
+
+@media all and (min-width:768px){
+    #a{grid-area: a;}
+    aside{grid-area: aside;}
+    .c{grid-area: c;}
+    .d{grid-area: d;}
+    .e{grid-area: e;}
+    .f{grid-area: f;}
+    .g{grid-area: g;}
+    .h{grid-area: h;}
+    #i{grid-area: i;}
+    body{
+        gap: 2px;
+        width: 95%;
+        background-color: aqua;
+        margin: 10px auto 10px auto;
+        display: grid;
+        
+        grid-template-rows: 20.835vw 41.67vw 34.725vw 34.725vw 66.672vw 66.672vw 22.224vw;
+        grid-template-columns: 50% 50% ;
+        grid-template-areas: 
+        "a a"
+        "aside aside"
+        "c c"
+        "d d"
+        "e f"
+        "g h"
+        "i i"
+        ;
+    }
+
+    #a,aside,.c,.d,.e,.f,.g,.h,#i{
+        display: grid;
+        align-items: center;
+        background-color: rgb(67, 170, 46);
+    }
+}
+
+
+@media all and (min-width:1200px){
+    #a{grid-area: a;}
+    aside{grid-area: aside;}
+    .c{grid-area: c;}
+    .d{grid-area: d;}
+    .e{grid-area: e;}
+    .f{grid-area: f;}
+    .g{grid-area: g;}
+    .h{grid-area: h;}
+    #i{grid-area: i;}
+    body{
+        gap: 2px;
+        width: 1000px;
+        background-color: aqua;
+        margin: 10px auto 10px auto;
+        display: grid;
+        
+        grid-template-rows: 6.51041666vw 13.020833vw 16.276042vw 9.76563vw;
+        grid-template-columns: 20% 20% 20% 20% 20% ;
+        grid-template-areas: 
+        "a a a a a"
+        "aside c c d d"
+        "aside e f g h"
+        "aside i i i i"
+        ;
+    }
+
+    #a,aside,.c,.d,.e,.f,.g,.h,#i{
+        background-color: rgb(221, 218, 25);
+        display: grid;
+        align-items: center;
+    }
+    p{
+        width: 100%;
+    }
+}
